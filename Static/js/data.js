@@ -26,9 +26,9 @@ var data = [
     durationMinutes: "6 minutes",
     comments: "On New Years Eve I went outside to hear the celebration and fireworks in my neighbor hood. And noticed 3 red lights above my house and"
   },
-  city: "el cajon",
   {
     datetime: "1/1/2010",
+    city: "el cajon",
     state: "ca",
     country: "us",
     shape: "triangle",

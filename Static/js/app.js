@@ -35,7 +35,7 @@ function updateFilters() {
   let elementValue = changedElement.property("value")
   console.log(elementValue);
   // 4c. Save the id of the filter that was changed as a variable.
-  let filterID = changedElement.attr("id");
+  let filterId = changedElement.attr("id");
   console.log(filterId);
 
   // 5. If a filter value was entered then add that filterId and value
@@ -53,15 +53,15 @@ function updateFilters() {
 function filterTable(){
 
 // 8. Set the filtered data to the tableData.
-var filterData = tableData;
+    var filterData = tableData;
 
 // 9. Loop through all of the filters and keep any data that
 // matches the filter values
 
-for (const [key, value] of Object.entries(filters)) {
-  console.log("${key}: ${value}")
+      for (const [key, value] of Object.entries(filters)) {
+        console.log("${key}: ${value}")
 
-filterData = filterData.filter(row=>row [key] === value);}
+      filterData = filterData.filter(row=>row [key] === value);}
 
   // 10. Finally, rebuild the table using the filtered data
   buildTable(filterData);

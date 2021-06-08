@@ -18,5 +18,5 @@ So the idea is to create a interactive web page using [javascript_code](https://
 ## Result
 After finishing the dashboard she added some fun touches to the page to make it more interesting and visually attractive. She is very happy the way it turned out and she hopes the visitors will enjoy her page as much as she enjoyed creating it.
 
-[https://github.com/4renginy/Module11-UFOs/blob/main/images/The%20Truth.PNG]
+![https://github.com/4renginy/Module11-UFOs/blob/main/images/The%20Truth.PNG]
 
